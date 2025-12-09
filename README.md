@@ -1,5 +1,5 @@
 ## Compile
-To compile the project run:m
+To compile the project run:
 
 ```
 ant compile
@@ -29,7 +29,7 @@ ant jar
 ## Running
 
 ### Without Ant, Command line
-To run the application via the portable jar file (this is by default created at `dist/ImageViewer.jar` after building) run:
+To run the application via the portable jar file (this is by default created at `dist/Chessgame.jar` after building) run:
 
 ```
 java -jar <jar file>
