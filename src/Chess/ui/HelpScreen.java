@@ -437,7 +437,10 @@ public class HelpScreen extends JPanel {
     private void emailIcon(JPanel panel, String name, String email) {
         JLabel nameLabel = new JLabel(name + ": ");
 
-        ImageIcon gmail = new ImageIcon("src/assets/Icons/outLook.png");
+        ImageIcon gmail = new ImageIcon(
+            getClass().getResource("/Icons/outLook.png")
+        );
+
         JLabel iconLabel = new JLabel(gmail);
 
         iconLabel.setCursor(new Cursor(Cursor.HAND_CURSOR)); // clickable element

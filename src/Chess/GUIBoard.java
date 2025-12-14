@@ -496,7 +496,6 @@ public class GUIBoard extends JPanel {
                         String pieceName = getPieceImageName(piece);
                         if (pieceName != null) {
                             try {
-                                //ImageIcon icon = ResourceManager.piece(pieceName, 55);
                                 int size;
                                 if(previewMode){
                                     size = 25;
